@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Services - Personal Bootstrap Template</title>
+  <title>Suyash Nikam | Services</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -34,6 +34,22 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <style>
+        .sitename {
+          font-size: 2em;
+          text-align: center;
+          font-weight: bold;
+        }
+
+        .gear-icon, .laptop-icon {
+          font-size: 1.2em;
+        }
+
+        .arrow-symbol {
+          font-size: 1.5em;
+          color: #18d26e; /* Custom color for the arrow */
+        }
+    </style>
 </head>
 
 <body class="services-page">
@@ -44,7 +60,10 @@
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.webp" alt=""> -->
-        <h1 class="sitename">Personal</h1>
+        <h1 class="sitename">
+          <span class="gear-icon">⚙️</span> Mechhead <span class="arrow-symbol">2</span> Techhead <span
+                class="laptop-icon">💻</span>
+        </h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -53,24 +72,24 @@
           <li><a href="about.html">About</a></li>
           <li><a href="resume.html">Resume</a></li>
           <li><a href="services.html" class="active">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
+<!--          <li><a href="portfolio.html">Portfolio</a></li>-->
+<!--          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>-->
+<!--            <ul>-->
+<!--              <li><a href="#">Dropdown 1</a></li>-->
+<!--              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>-->
+<!--                <ul>-->
+<!--                  <li><a href="#">Deep Dropdown 1</a></li>-->
+<!--                  <li><a href="#">Deep Dropdown 2</a></li>-->
+<!--                  <li><a href="#">Deep Dropdown 3</a></li>-->
+<!--                  <li><a href="#">Deep Dropdown 4</a></li>-->
+<!--                  <li><a href="#">Deep Dropdown 5</a></li>-->
+<!--                </ul>-->
+<!--              </li>-->
+<!--              <li><a href="#">Dropdown 2</a></li>-->
+<!--              <li><a href="#">Dropdown 3</a></li>-->
+<!--              <li><a href="#">Dropdown 4</a></li>-->
+<!--            </ul>-->
+<!--          </li>-->
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -88,7 +107,7 @@
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
               <h1>Services</h1>
-              <p class="mb-0">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+<!--              <p class="mb-0">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>-->
             </div>
           </div>
         </div>
@@ -105,85 +124,68 @@
 
     <!-- Services Section -->
     <section id="services" class="services section">
-
       <div class="container">
-
         <div class="row gy-4">
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
+            <div class="service-item position-relative">
               <div class="icon">
-                <i class="bi bi-activity"></i>
+                <img src="https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png" alt="Python" width="50">
               </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Nesciunt Mete</h3>
-              </a>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+              <h3>Python Development</h3>
+              <p>Crafting efficient and scalable solutions using Python for web development, automation, and data processing.</p>
             </div>
-          </div><!-- End Service Item -->
+          </div>
 
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <img src="https://static.djangoproject.com/img/logos/django-logo-positive.png" alt="Python" width="50">
+              </div>
+              <h3>Django Development</h3>
+              <p>Building robust web applications with Django and Python.</p>
+            </div>
+          </div>
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-broadcast"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Eosle Commodi</h3>
-              </a>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-            </div>
-          </div><!-- End Service Item -->
-
+  <div class="service-item position-relative">
+    <div class="icon">
+      <img src="https://cdn4.iconfinder.com/data/icons/logos-3/640/odoo_logo_rgb-1024.png" alt="Odoo" width="50">
+    </div>
+    <h3>Odoo Customization</h3>
+    <p>Enhancing business operations with customized Odoo ERP solutions.</p>
+  </div>
+</div>
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-easel"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Ledo Markt</h3>
-              </a>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-bounding-box-circles"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Asperiores Commodit</h3>
-              </a>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-              <a href="service-details.html" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
+  <div class="service-item position-relative">
+    <div class="icon">
+      <img src="https://www.logo.wine/a/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.svg" alt="AWS" width="50">
+    </div>
+    <h3>AWS Cloud Solutions</h3>
+    <p>Deploying scalable and secure cloud solutions on AWS.</p>
+  </div>
+</div>
+<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+  <div class="service-item position-relative">
+    <div class="icon">
+      <img src="https://cdn.dribbble.com/userupload/25894993/file/original-c5bd05b52a832215d2a0a3e2ceb80b31.png?resize=752x&vertical=center" alt="DevOps" width="50">
+    </div>
+    <h3>DevOps Implementation</h3>
+    <p>Automating deployments and improving CI/CD pipelines.</p>
+  </div>
+</div>
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-calendar4-week"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Velit Doloremque</h3>
-              </a>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-              <a href="service-details.html" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
+  <div class="service-item position-relative">
+    <div class="icon">
+      <img src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png" alt="React" width="50">
+    </div>
+    <h3>React Development</h3>
+    <p>Building dynamic and responsive web applications with React.js.</p>
+  </div>
+</div>
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-chat-square-text"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Dolori Architecto</h3>
-              </a>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-              <a href="service-details.html" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
+
+
+
 
         </div>
 
@@ -195,25 +197,26 @@
 
   <footer id="footer" class="footer dark-background">
     <div class="container">
-      <h3 class="sitename">Personal</h3>
-      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      <h3 class="sitename">
+            <span class="gear-icon">⚙️</span> Mechhead <span class="arrow-symbol">2</span> Techhead <span
+                class="laptop-icon">💻</span>
+      </h3>
+<!--      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>-->
       <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-skype"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
+        <a href="https://instagram.com/_itssuyash_"><i class="bi bi-instagram"></i></a>
+        <a href="https://linkedin.com/in/suyashnikam"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/suyashnikam"><i class="bi bi-github"></i></a>
       </div>
       <div class="container">
         <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Personal</strong> <span>All Rights Reserved</span>
+          <span>Copyright &copy; 2025</span> Suyash Nikam <span>All Rights Reserved</span>
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
           <!-- You can delete the links only if you've purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+<!--          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>-->
         </div>
       </div>
     </div>
